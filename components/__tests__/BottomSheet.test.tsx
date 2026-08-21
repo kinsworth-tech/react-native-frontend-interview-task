@@ -12,7 +12,7 @@ describe('BottomSheet', () => {
       </BottomSheet>
     );
 
-    expect(screen.getByText('Leave feedback')).toBeOnTheScreen();
-    expect(screen.getByText('How was your visit?')).toBeOnTheScreen();
+    expect(screen.getByText('Leave feedback')).toBeTruthy();
+    expect(screen.getByText('How was your visit?')).toBeTruthy();
   });
 });
