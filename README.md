@@ -44,10 +44,7 @@ Have fun! We look forward to seeing your work.
 
 This is an [Expo](https://expo.dev) project, so you don't need Xcode or Android Studio to complete the task.
 
-Run `npm install` and then `npm start` to start the dev server. From there you can:
-
-- scan the QR code with [Expo Go](https://expo.dev/go) on a physical iOS or Android device, or
-- press `i` to open the iOS simulator, or `a` to open an Android emulator, if you have those set up.
+Run `npm install` and then `npm start` to start the dev server. From there you can press `i` to open the iOS simulator or `a` to open an Android emulator if you have them set up.
 
 Other useful commands:
 
