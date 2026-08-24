@@ -16,7 +16,6 @@ Build a reusable bottom sheet component that can be opened and closed, with a cu
 - The bottom sheet is displayed above a semi-transparent background overlay that dims the rest of the screen.
 - The bottom sheet is opened from the demo screen in `App.tsx`, and also closes when the overlay is pressed.
 - The bottom sheet respects the device's safe areas, so its contents aren't hidden behind the notch or the home indicator. `react-native-safe-area-context` is already installed.
-- The bottom sheet works on both iOS and Android. On Android, the hardware/gesture back button closes it.
 
 Design the necessary props or configuration options for the bottom sheet based on the above requirements.
 
@@ -26,8 +25,10 @@ In a real app you'd probably use a library such as `@gorhom/bottom-sheet`, but f
 
 ## Stretch goals
 
+- On Android, the hardware/gesture back button closes the sheet.
 - The bottom sheet can be dismissed by swiping it down.
 - The bottom sheet's contents stay visible when the keyboard opens over it.
+- Animation...
 
 ## Keep in mind
 
